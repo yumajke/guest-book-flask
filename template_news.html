@@ -1,0 +1,24 @@
+<b>
+    ###name###
+</b>
+<div>
+    ###message###
+</div>
+<button name="act" onclick="ChangeClass('###id###')">
+    Edit
+</button>
+<form method="POST" action="..">
+    <input type="text" value="###id###" name="id" style="display:none;"> <br>
+    <button name="act" value="delete" type="submit">
+        Delete
+    </button>
+</form>
+
+<form method="POST" action=".." class="close" id="form###id###">
+    <input type="text" value="###id###" name="id" style="display:none;"> <br>
+    <input type="text" value="###name###" name="name"> <br>
+    <textarea name="message">###message###</textarea>
+    <button name="act" value="save" type="submit">
+        Save
+    </button>
+</form>
